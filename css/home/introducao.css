@@ -7,12 +7,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
-  max-width: 1200px;
-  box-sizing: border-box;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .introducao-conteudo {
@@ -38,15 +32,6 @@
   border-radius: 4px;
 }
 
-@media (max-width: 1200px) {
-  .introducao h1 {
-    font-size: 48px;
-  }
-  .introducao p {
-    font-size: 18px;
-  }
-}
-
 @media (max-width: 800px) {
   .introducao-bg {
     background: #111111;
@@ -58,7 +43,6 @@
     gap: 32px;
   }
   .introducao h1 {
-    font-size: 32px;
     margin-bottom: 16px;
   }
   .introducao-conteudo {
